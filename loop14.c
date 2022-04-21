@@ -10,7 +10,6 @@ int main(int argc, char *argv[]) {
     printf("%d\n", res);
   } else {
     while (n > 0) {
-      printf("%d\n", n);
       res = res * n;
       n--;
     }
