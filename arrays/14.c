@@ -6,16 +6,16 @@
 int main(int argc, char *argv[]) {
   srand(time(NULL));
   char *numeros[] = {
-    "1 Ancho",
-    "2 Dos",
-    "3 Tres",
-    "4 Cuatro",
-    "5 Cinco",
-    "6 Seis",
-    "7 Siete",
-    "10 Sota",
-    "11 Caballo",
-    "12 Rey",
+    "Ancho",
+    "Dos",
+    "Tres",
+    "Cuatro",
+    "Cinco",
+    "Seis",
+    "Siete",
+    "Sota",
+    "Caballo",
+    "Rey",
   };
   char *palos[] = {"Espada", "Basto", "Copa", "Oro"};
   char mazo[40][21];
